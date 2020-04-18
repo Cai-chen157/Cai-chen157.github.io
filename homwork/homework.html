@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+<style>
+    @font-face {
+        font-family: "清松手寫體3";
+        src:   url('src/font/清松手寫體3.ttf') format("truetype")
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>眼睛張不開-貓</title>
+    <!--定義使用者字型(非內建字型)-->
+
+</head>
+<body  style="background-color:rgb(241, 234, 163);">
+    <h1 p style="color: rgb(82, 100, 112);text-align: center;font-family: Arial, Helvetica, sans-serif,'清松手寫體3';">是一隻瞇瞇眼的小白貓</h1>
+    <br><img src="src/hello.png">
+
+    <a href="file:///C:/Users/%E5%96%B5/Documents/GitHub/109webdesign1/practice/157.html"><button style="color:thistle;background-color: teal;">push</button></a>
+
+<style>
+  .table1 tr{
+      font-size: 18pt;
+      font-family:'清松手寫體3';
+
+  }  
+  .table1 tr:nth-child(odd){
+      background-color: sandybrown;
+  }
+  .table1 tr:nth-child(even){
+      background-color: sienna;
+  }
+  .table1 tr:first-child{
+      background-color: tan;
+  }
+</style>
+<table class="table1">
+    <tr>
+        <td>貓咪</td>
+        <td>狐狸</td>
+        <td>松鼠</td>
+    </tr>
+    <tr>
+        <td>羊</td>
+        <td>馬</td>
+        <td>牛</td>
+    </tr>
+    <tr>
+        <td>猴</td>
+        <td>星星</td>
+        <td>朱</td>
+    </tr>
+</table>
+
+    <div><button>貓</button><button>兔</button></div>
+    <div><button>鼠</button><button>狗</button></div>
+
+<button onclick="alert('not here');">push</button>
+<button onclick="push();">push</button>
+
+<script>
+function push(){
+    alert('即將離開此頁面');
+    //location.href='https://www.ncut.edu.tw/p/404-1000-4516.php?Lang=zh-tw'; //原視窗
+    window.open('https://www.ncut.edu.tw/p/404-1000-4516.php?Lang=zh-tw');
+}
+
+</script>
+<input type="image"
+src="src/見光死.png"
+onclick="location.href='https://www.ncut.edu.tw/';">
+
+</body>
+</html>
